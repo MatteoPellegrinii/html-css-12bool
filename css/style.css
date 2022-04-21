@@ -1,5 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 [class*="col-"]{
     height: 40px;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.804);
     margin: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+[class*="nested-"]{
+    height: 30px;
+    background-color: rgb(4, 215, 4);
+    margin: 1px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space{
+    margin-top: 40px;
+}
+
