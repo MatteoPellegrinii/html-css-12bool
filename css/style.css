@@ -6,7 +6,6 @@
 [class*="col-"]{
     height: 40px;
     background-color: rgba(0, 0, 255, 0.804);
-    margin: 1px ;
     display: flex;
     justify-content: center;
     align-items: center;
